@@ -33,8 +33,8 @@ export default function ProjectsSection() {
     {
       title: "AI Local Marketing Audit Platform",
       description:
-        "Automated platform leveraging AI to analyze and optimize local marketing strategies with data-driven recommendations.",
-      tags: ["Marketing AI", "Analytics", "Automation"],
+        "Production SaaS application generating data-grounded marketing plans with intelligent budget allocation, async enrichment pipelines, and schema-validated AI outputs.",
+      tags: ["Next.js 16", "OpenAI GPT-4", "Postgres", "Production SaaS"],
       gradient: "from-indigo-50 to-blue-50",
       detailLink: "/projects/ai-marketing-audit",
       githubLink: "https://github.com/Tannazsetayesh/ai_marketing_audit",

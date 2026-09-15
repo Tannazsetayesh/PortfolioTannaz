@@ -29,8 +29,9 @@ export default function AIMarketingAuditPage() {
             AI Local Marketing Audit Platform
           </h1>
           <p className="text-xl text-slate-600 font-light leading-relaxed">
-            Automated platform leveraging AI to analyze and optimize local
-            marketing strategies with data-driven recommendations
+            A production-ready SaaS application for generating data-grounded 
+            marketing plans for local businesses with intelligent budget allocation 
+            and multi-step enrichment pipelines
           </p>
         </div>
       </div>
@@ -40,44 +41,54 @@ export default function AIMarketingAuditPage() {
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-12">
           <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
-            Marketing AI
+            Next.js 16
           </span>
           <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
-            Analytics
+            TypeScript
           </span>
           <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
-            Automation
+            OpenAI GPT-4
           </span>
           <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
-            Machine Learning
+            Claude AI
           </span>
           <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
-            Web Scraping
+            Postgres
+          </span>
+          <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
+            Inngest
+          </span>
+          <span className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg font-medium">
+            Production SaaS
           </span>
         </div>
 
         {/* Project Overview */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Project Overview
+            Overview
           </h2>
-          <div className="prose prose-lg max-w-none text-slate-700 space-y-4">
-            <p>
-              The AI Local Marketing Audit Platform is an intelligent automation
-              tool designed to comprehensively analyze local business marketing
-              presence across multiple digital channels. By combining web
-              scraping, data analytics, and machine learning, the platform
-              provides actionable insights that help businesses optimize their
-              local marketing strategies.
+          <div className="text-slate-700 space-y-4">
+            <p className="leading-relaxed">
+              Production SaaS that generates data-grounded marketing plans for local businesses by orchestrating multiple data sources—SERP rankings, Google Places, PageSpeed Insights, and real-time CPC data—through an async enrichment pipeline.
             </p>
-            <p>
-              In today&apos;s digital landscape, businesses struggle to maintain
-              consistent and effective marketing across various platforms—Google
-              My Business, social media, review sites, and directories. This
-              platform automates the audit process, identifying gaps,
-              opportunities, and competitive advantages with AI-powered
-              recommendations.
+            <p className="leading-relaxed">
+              Features schema-validated AI outputs, intelligent budget allocation, graceful API degradation, cost tracking, and professional PDF generation.
             </p>
+          </div>
+        </section>
+
+        {/* Tech Stack */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            Tech Stack
+          </h2>
+          <div className="text-slate-700 space-y-3">
+            <p><span className="font-semibold text-slate-900">Frontend:</span> Next.js 16 (App Router), React 19, TailwindCSS</p>
+            <p><span className="font-semibold text-slate-900">Backend:</span> TypeScript, Postgres (Supabase)</p>
+            <p><span className="font-semibold text-slate-900">AI/ML:</span> OpenAI API (GPT-4), Claude for structured analysis</p>
+            <p><span className="font-semibold text-slate-900">Infrastructure:</span> Inngest, Puppeteer, Resend</p>
+            <p><span className="font-semibold text-slate-900">Integrations:</span> SERP API, Google PageSpeed Insights, Google Places API, Stripe</p>
           </div>
         </section>
 
@@ -86,88 +97,78 @@ export default function AIMarketingAuditPage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             Key Features
           </h2>
-          <div className="grid gap-4">
-            <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
-                Automated Multi-Channel Analysis
+          <div className="space-y-6 text-slate-700">
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Async Multi-Step Enrichment Pipeline
               </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Automatically scans and analyzes business presence across Google
-                My Business, social media platforms, review sites, and local
-                directories, aggregating data into a unified dashboard.
+              <p className="leading-relaxed">
+                Orchestrates parallel API calls across multiple data sources with intelligent caching and graceful degradation.
               </p>
             </div>
-            <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
-                AI-Powered Recommendations
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Schema-Validated AI Outputs
               </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Utilizes machine learning models to analyze patterns and provide
-                personalized, prioritized recommendations for improving local
-                search visibility and customer engagement.
+              <p className="leading-relaxed">
+                Zod validation ensures structured, hallucination-free responses with parallelized LLM calls for fault isolation.
               </p>
             </div>
-            <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
-                Competitive Intelligence
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Intelligent Budget Allocation
               </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Benchmarks business performance against local competitors,
-                identifying strategic opportunities and market positioning gaps
-                with actionable competitive insights.
+              <p className="leading-relaxed">
+                Proprietary algorithm allocates budgets using real-time CPC data and competitor analysis.
               </p>
             </div>
-            <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
-                Comprehensive Reporting
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Production-Grade Infrastructure
               </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Generates detailed audit reports with visualizations, trend
-                analysis, and clear action items, making complex data accessible
-                to business owners and marketing teams.
+              <p className="leading-relaxed">
+                Job queue with retries, cost tracking, PDF generation, and SSRF protection.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Technical Implementation */}
+        {/* Architecture Highlights */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Technical Implementation
+            Architecture Highlights
           </h2>
           <div className="space-y-6 text-slate-700">
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Data Collection Infrastructure
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Job Queue with Retries & Idempotency
               </h3>
               <p className="leading-relaxed">
-                Built a robust web scraping and API integration system to gather
-                data from diverse sources including Google APIs, social media
-                platforms, and review aggregators. Implemented rate limiting,
-                error handling, and data validation to ensure reliable
-                collection.
+                Inngest orchestration with automatic retries and detailed observability.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Machine Learning Pipeline
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Enrichment Caching Layer
               </h3>
               <p className="leading-relaxed">
-                Developed ML models for sentiment analysis of customer reviews,
-                keyword optimization, and performance prediction. The system
-                learns from industry benchmarks and historical data to provide
-                increasingly accurate recommendations.
+                Intelligent caching with 7-30 day TTL reduces API costs while maintaining data freshness.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Scalable Backend Architecture
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Parallelized LLM Architecture
               </h3>
               <p className="leading-relaxed">
-                Designed a microservices-based architecture with asynchronous
-                task processing for handling multiple concurrent audits.
-                Implemented caching strategies and database optimization for fast
-                report generation and responsive user experience.
+                Independent LLM calls per section with Zod validation for consistent outputs.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Security & Cost Management
+              </h3>
+              <p className="leading-relaxed">
+                SSRF protection and per-report cost tracking for margin analysis.
               </p>
             </div>
           </div>
@@ -176,19 +177,12 @@ export default function AIMarketingAuditPage() {
         {/* Impact */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Impact</h2>
-          <div className="p-8 bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl border border-indigo-100">
-            <p className="text-lg text-slate-700 leading-relaxed mb-4">
-              This platform transforms the traditionally manual and
-              time-consuming process of marketing audits into an automated,
-              data-driven workflow. By democratizing access to sophisticated
-              marketing analytics, it enables small and medium-sized businesses
-              to compete more effectively in local markets.
+          <div className="text-slate-700 space-y-4">
+            <p className="leading-relaxed">
+              Production SaaS demonstrating full-stack AI development—from data orchestration and LLM integration to payment processing and PDF generation.
             </p>
-            <p className="text-lg text-slate-700 leading-relaxed">
-              The project demonstrates expertise in building end-to-end AI
-              solutions that combine multiple technologies—web scraping, machine
-              learning, data engineering, and user-facing applications—to solve
-              real business challenges with measurable outcomes.
+            <p className="leading-relaxed">
+              Combines async job orchestration, schema-validated outputs, intelligent caching, and real-time market data to deliver reliable insights for local businesses.
             </p>
           </div>
         </section>
